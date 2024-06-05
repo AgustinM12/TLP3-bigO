@@ -4,7 +4,7 @@ from measure_time import measure_time as mt
 
 # Ejemplo de función con complejidad O(n)
 def linear_algorithm(arr, n):
-    for i in range(n):
+    for i in arr:
         pass # Operación O(1)
     return n
 
